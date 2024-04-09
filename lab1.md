@@ -1,9 +1,9 @@
-1. cd ran with No Arguments
+  1. cd ran with No Arguments
 
-  ![Image](1.png)
-  Output: (No visual output, but it changes the working directory to the user's home directory)
-  Explanation: Running cd with no arguments defaults to changing the working directory to the user's home directory. In this case, it changed from /user/lueedith/lecture1 to /user/lueedith.
-  Error: No
+![Image](1.png)
+Output: (No visual output, but it changes the working directory to the user's home directory)
+Explanation: Running cd with no arguments defaults to changing the working directory to the user's home directory. In this case, it changed from /user/lueedith/lecture1 to /user/lueedith.
+Error: No
 
 2. cd ran with Path to a Directory
 
