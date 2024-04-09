@@ -7,7 +7,7 @@
   Explanation: Running cd with no arguments defaults to changing the working directory to the user's home directory.
   
   Error: No
-
+  
 2. cd ran with Path to a Directory
 
   ![Image](2.png)
