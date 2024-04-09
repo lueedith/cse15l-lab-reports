@@ -1,70 +1,71 @@
-  1. cd ran with No Arguments
+1. cd ran with No Arguments
 
-![Image](1.png)
-Output: (No visual output, but it changes the working directory to the user's home directory)
-Explanation: Running cd with no arguments defaults to changing the working directory to the user's home directory. In this case, it changed from /user/lueedith/lecture1 to /user/lueedith.
-Error: No
+  ![Image](1.png)
+  
+  Output: (No visual output, but it changes the working directory to the user's home directory)
+  Explanation: Running cd with no arguments defaults to changing the working directory to the user's home directory.
+  Error: No
 
 2. cd ran with Path to a Directory
 
-  Command: cd lecture1
-  Absolute Path Before Command: /user/lueedith
+  ![Image](2.png)
+  
   Output: (No visual output, directory changes to specified path)
-  Explanation: The command changes the working directory to the specified path. projects/lab1 is a directory inside /home/user, so the new working directory is /home/user/projects/lab1.
+  Explanation: The command changes the working directory to the specified path.
   Error: No
   
 3. cd ran with Path to a File (Error)
 
-  Command: cd readme.txt
-  Absolute Path Before Command: /home/user/projects/lab1
+  ![Image](3.png)
+  
   Output: bash: cd: Hello.java: Not a directory
-  Explanation: The cd command is used to change directories, not to open files. Since readme.txt is a file, not a directory, the command fails with an error.
+  Explanation: The cd command is used to change directories, not to open files. README is a text file not a directory, thus is an error.
   Error: Yes
   
 4. ls ran with No Arguments
 
-  Command: ls
-  Absolute Path Before Command: /home/user/projects
+  ![Image](4.png)
+  
   Output: Hello.class Hello.java README messages
   Explanation: Displays the contents of the current directory, in this case the contents of lecture1 directory.
   Error: No
 
 5. ls ran with Path to a Directory
 
-  Command: ls lab1
-  Absolute Path Before Command: /home/user/projects
-  Output: exercise1.txt exercise2.txt
-  Explanation: Lists the contents of the lab1 directory, showing two text files.
+  ![Image](5.png)
+  
+  Output: Hello.class Hello.java README messages
+  Explanation: Lists the contents of the lecture1 directory, showing three files and one directory.
   Error: No
 
 6. ls ran with Path to a File
 
-  Command: ls readme.txt
-  Absolute Path Before Command: /home/user/projects
-  Output: readme.txt
+  ![Image](6.png)
+  
+  Output: README
   Explanation: Lists the specified file, confirming its presence in the directory.
   Error: No
 
-7. cat ran with No Arguments (Error)
+7. cat ran with No Arguments
 
-  Command: cat
-  Absolute Path Before Command: /home/user/projects/lab1
-  Output: cat: missing file operand
-  Explanation: The cat command requires at least one file name as an argument to display its contents. Without any arguments, it returns an error.
-  Error: Yes
+  ![Image](7.png)
+  
+  Output: Waits for input from the user. Anything typed is echoed back to the terminal.
+  Explanation: When cat is run without any arguments, it reads from standard input (stdin). The terminal will wait for an input and echo it as the output. This command can be used to create text files this way.
+  Error: No
 
 8. cat ran with Path to a Directory (Error)
 
-  Command: cat lab2
-  Absolute Path Before Command: /home/user/projects
-  Output: cat: lab2: Is a directory
-  Explanation: The cat command is intended for displaying file contents, not directory contents. Thus, using it on a directory returns an error.
+  ![Image](8.png)
+  
+  Output: cat: lecture1: Is a directory
+  Explanation: The cat command is intended for displaying file contents, not directory contents. lecture1 is a directory thus producing error.
   Error: Yes
 
 9. cat ran with Path to a File
 
-  Command: cat readme.txt
-  Absolute Path Before Command: /home/user/projects
-  Output: This is the README file for the projects directory.
-  Explanation: Displays the contents of readme.txt, which is a brief description of the directory.
+  ![Image](9.png)
+  
+  Output: The contents of the README file.
+  Explanation: The cat commmand ran with a file as an argument displays the contesnts of the file.
   Error: No
