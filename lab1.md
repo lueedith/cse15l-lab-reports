@@ -1,4 +1,4 @@
-1. cd ran with No Arguments
+1 cd ran with No Arguments
 
   ![Image](1.png)
   
@@ -8,7 +8,7 @@
   
   Error: No
   
-2. cd ran with Path to a Directory
+2 cd ran with Path to a Directory
 
   ![Image](2.png)
   
