@@ -24,7 +24,7 @@
   
   Output: bash: cd: Hello.java: Not a directory
   
-  Explanation: The cd command is used to change directories, not to open files. README is a text file not a directory, thus is an error.
+  Explanation: The cd command is used to change directories, not to open files. Hello.java is a java file not a directory, thus is an error.
   
   Error: Yes
   
