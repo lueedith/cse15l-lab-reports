@@ -1,5 +1,7 @@
-1 cd ran with No Arguments
+1 `cd` ran with No Arguments
 
+  Absolute Path of Working Directory: `/Users/lueedith/lecture1`
+  
   ![Image](1.png)
   
   Output: (No visual output, but it changes the working directory to the user's home directory)
@@ -8,7 +10,9 @@
   
   Error: No
   
-2 cd ran with Path to a Directory
+2 `cd` ran with Path to a Directory
+
+  Absolute Path of Working Directory: `/Users/lueedith`
 
   ![Image](2.png)
   
@@ -18,7 +22,9 @@
   
   Error: No
   
-3 cd ran with Path to a File (Error)
+3 `cd` ran with Path to a File (Error)  
+
+  Absolute Path of Working Directory: `/Users/lueedith/lecture1`
 
   ![Image](3.png)
   
@@ -28,7 +34,9 @@
   
   Error: Yes
   
-4 ls ran with No Arguments
+4 `ls` ran with No Arguments
+
+  Absolute Path of Working Directory: `/Users/lueedith/lecture1`
 
   ![Image](4.png)
   
@@ -38,7 +46,9 @@
   
   Error: No
 
-5 ls ran with Path to a Directory
+5 `ls` ran with Path to a Directory
+
+  Absolute Path of Working Directory: `/Users/lueedith`
 
   ![Image](5.png)
   
@@ -48,7 +58,9 @@
   
   Error: No
 
-6 ls ran with Path to a File
+6 `ls` ran with Path to a File
+
+  Absolute Path of Working Directory: `/Users/lueedith/lecture1`
 
   ![Image](6.png)
   
@@ -58,7 +70,9 @@
   
   Error: No
 
-7 cat ran with No Arguments
+7 `cat` ran with No Arguments
+
+  Absolute Path of Working Directory: `/Users/lueedith`
 
   ![Image](7.png)
   
@@ -68,7 +82,9 @@
   
   Error: No
 
-8 cat ran with Path to a Directory (Error)
+8 `cat` ran with Path to a Directory (Error)
+
+  Absolute Path of Working Directory: `/Users/lueedith`
 
   ![Image](8.png)
   
@@ -78,7 +94,9 @@
   
   Error: Yes
 
-9 cat ran with Path to a File
+9 `cat` ran with Path to a File
+
+  Absolute Path of Working Directory: `/Users/lueedith/lecture1`
 
   ![Image](9.png)
   
