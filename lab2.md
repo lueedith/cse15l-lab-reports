@@ -1,4 +1,6 @@
-Code for Chat Server
+> Part 1:
+
+Code for `ChatServer`:
 
 ```
 import java.io.IOException;
@@ -46,3 +48,37 @@ class ChatServer {
     }
 }
 ```
+
+First usage of `/add-message`
+
+![Image](21.png)
+
+- The one and only method called is `handleRequest(URI url)`
+  
+- The argument for this method is `URI url`
+- The only relavent field value is `ArrayList<String> chatMessages` which starts off as an empty (`[]`)
+
+- `chatMessages` is empty before the request, and contains `["jpolitz: Hello"]` after the request.
+- The method processes the URL splitting the query string `s=Hello&user=jpolitz` into two parameters. The method identifies the `user` and `s` values, constructing the string `"jpolitz: Hello"`. This message is then added to the `chatMessages` ArrayList.
+- Current state of `chatMessages` is returned, at this point being `"jpolitz: Hello"`
+
+
+Second usage of `/add-message`
+
+![Image](22.png)
+
+- The one and only method called is `handleRequest(URI url)`
+  
+- The argument for this method is `URI url`
+- The only relavent field value is `ArrayList<String> chatMessages` which cointains (`["jpolitz: Hello"]`) from the first command ran.
+
+- `chatMessages` contains `["jpolitz: Hello]` before the request, and contains `["jpolitz: Hello", "yash: How are you"]` after the request.
+- The method processes the URL splitting the query string `s=How are you&user=yash` into two parameters. The method identifies the `user` and `s` values, constructing the string `"yash: How are you"`. This message is then added to the `chatMessages` ArrayList.
+- Current state of `chatMessages` is returned, at this point being:
+```
+"jpolitz: Hello"
+"yash: How are you:
+```
+
+> Part 2
+
