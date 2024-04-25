@@ -82,3 +82,12 @@ Second usage of `/add-message`
 
 > Part 2
 
+![Image](23.png)
+
+![Image](24.png)
+
+![Image](25.png)
+
+> Part 3
+
+I had no idea that you could start and run a server using only the terminal. This opened my eyes to the possibiliteis of not just the terminal but also java programming in writing the code for a server.
