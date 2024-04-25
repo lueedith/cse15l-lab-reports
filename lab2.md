@@ -90,4 +90,4 @@ Second usage of `/add-message`
 
 > Part 3
 
-I had no idea that you could start and run a server using only the terminal. This opened my eyes to the possibiliteis of not just the terminal but also java programming in writing the code for a server.
+I had no idea that you could start and run a server using only the terminal. This opened my eyes to the possibilities and also the capabilities of not just the terminal but also java programming as a whole.
