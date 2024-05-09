@@ -99,6 +99,7 @@ Using `-n` can be extremely useful for finding the context of where a word or pa
 `grep` used with `-v`
 
 `grep -v "the" technical/911report/chapter-1.txt > grep-output.txt`
+
 `grep -v "hello" technical/911report/chapter-1.txt > grep-output.txt`
 
 In using `-v` in the above examples there is no output (moved to specified file), as it floods the terminal, however the command searches for the lines that dont contain the provided pattern, in this case the lines containing "the" and "hello". This can be useful if the user desires lines not involving a certain element.
