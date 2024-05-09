@@ -3,7 +3,7 @@
 > Part 1, Bugs:
 
 A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
-***
+
 ```
 @Test
       public void testMergeWithFailure() {
@@ -16,7 +16,7 @@ A failure-inducing input for the buggy program, as a JUnit test and any associat
 ```
 
 An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown).
-***
+
 ```
 @Test
       public void testMergeWithoutFailure() {
@@ -29,11 +29,11 @@ An input that doesn't induce a failure, as a JUnit test and any associated code 
 ```
 
 The symptom, as the output of running the two tests above (provide it as a screenshot -- one test should pass, one test should fail).
-***
+
 ![Image](symptom.png)
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).
-***
+
 Before:
 ```
 while(index2 < list2.size()) {
